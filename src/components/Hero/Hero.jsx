@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 // ✅ Correct image imports
 import plantBg from "../../assets/plant-2.png";
 import plantProduct from "../../assets/plant-7.png";
-import group9 from "../../assets/group-9.png";
+import group9 from "../../assets/Group-9.png";
 
 const Hero = () => {
   return (
