@@ -1,0 +1,77 @@
+.review-section {
+  padding: 120px 0;
+}
+
+/* GRID */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+/* CARD — COMPACT SIZE */
+.review-card {
+  padding: 45px 45px 40px;
+  border-radius: 45px;
+  position: relative;
+
+  /* smooth curved shape on ALL sides */
+  border-radius: 45px;
+  overflow: hidden;
+}
+
+/* subtle inner curvature illusion */
+.review-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 45px;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(255,255,255,0.05),
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+/* TOP SECTION (IMAGE + TEXT BESIDE EACH OTHER) */
+.review-top {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+/* USER IMAGE */
+.review-top img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+/* NAME + STARS STACK */
+.review-user h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+/* STARS */
+.stars {
+  display: flex;
+  gap: 6px;
+  font-size: 16px;
+  color: #ffd54a; /* gold like reference */
+}
+
+.star-half {
+  opacity: 0.6;
+}
+
+/* TEXT */
+.review-card p {
+  font-size: 15px;
+  color: #9fb2a8;
+  line-height: 1.7;
+}

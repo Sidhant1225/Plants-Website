@@ -1,0 +1,7 @@
+.feature {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  border-radius: 50px;
+}

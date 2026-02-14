@@ -1,0 +1,12 @@
+:root {
+  --bg-dark: #041f16;
+  --text-main: #eaf3ee;
+  --text-muted: #9fb2a8;
+  --accent: #79f0b1;
+
+  --glass-bg: rgba(255,255,255,0.06);
+  --glass-border: rgba(255,255,255,0.18);
+
+  --radius-xl: 80px;
+  --radius-lg: 50px;
+}

@@ -1,0 +1,28 @@
+.product-card {
+  padding: 40px;
+  border-radius: 40px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.small {
+  padding: 10px 24px;
+}

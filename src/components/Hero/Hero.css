@@ -1,0 +1,146 @@
+.hero {
+  position: relative;
+  padding: 240px 0 340px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.hero-bg {
+  position: absolute;
+  width: 1000px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 350px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+
+.hero-left {
+  max-width: 650px;
+}
+
+.hero-left h1 {
+  font-size: 100px;
+  line-height: 1.05;
+  margin-bottom: 40px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: var(--text-muted);
+  margin-bottom: 50px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.btn-play {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.play-circle {
+  width: 45px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.hero-product {
+  width: 500px;
+  height: 640px;   
+  padding: 120px 60px 60px;
+  position: relative;
+  text-align: center;
+}
+
+
+.hero-product img {
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;  
+}
+
+.product-content {
+  margin-top: 190px;
+}
+
+.small-text {
+  color: var(--text-muted);
+}
+
+.product-content h3 {
+  margin: 20px 0 30px;
+}
+
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 25px;
+}
+
+.dots span {
+  width: 7px;
+  height: 7px;
+  background: white;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+
+
+.hero-review {
+  position: absolute;
+  left: 6%;
+  bottom: 100px;
+  width: 380px;
+  padding: 40px;
+
+  overflow: visible;     /* allow children to overflow */
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+ .review-top img {
+  width: 60px;
+  height: 60px;
+  
+  object-fit: cover;
+  display: block;
+}
+.stars {
+  color: var(--accent);
+}

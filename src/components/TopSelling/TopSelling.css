@@ -1,0 +1,75 @@
+.topselling-section {
+  padding: 140px 0;
+}
+
+/* ================= GRID ================= */
+.topselling-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px; /* slightly tighter */
+}
+
+/* ================= CARD ================= */
+.topselling-card {
+  position: relative;
+  padding: 120px 35px 45px;  /* space on top for floating image */
+  border-radius: 60px;
+  text-align: left;
+  min-height: 420px;         /* smaller than before */
+}
+
+/* ================= FLOATING IMAGE ================= */
+.card-image {
+  position: absolute;
+  top: -70px;                /* makes it float above */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.card-image img {
+  width: 350px;              /* bigger image */
+  height: auto;
+  filter: drop-shadow(0 25px 50px rgba(0,0,0,0.6));
+}
+
+/* ================= CONTENT ================= */
+.card-content {
+  margin-top: 120px;         /* pushes text below floating image */
+}
+
+.card-content h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+
+/* ================= PRICE ROW ================= */
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-row span {
+  font-size: 18px;
+}
+
+/* ================= BAG BUTTON ================= */
+.icon-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.06);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
