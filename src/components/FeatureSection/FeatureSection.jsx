@@ -1,10 +1,13 @@
 import "./FeatureSection.css";
 
+// ✅ Correct import
+import plant1 from "../../assets/plant1.png";
+
 const FeatureSection = () => {
   return (
     <section className="section">
       <div className="container feature glass-card">
-        <img src="/plants/plant1.png" alt="Featured" />
+        <img src={plant1} alt="Featured" />
         <div>
           <h2>We Have Small And Best O2 Plants Collection</h2>
           <p>

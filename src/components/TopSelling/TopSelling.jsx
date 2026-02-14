@@ -1,13 +1,21 @@
 import "./TopSelling.css";
 import { FiShoppingBag } from "react-icons/fi";
 
+// ✅ Import all images properly
+import plant1 from "../../assets/plant-1.png";
+import plant2 from "../../assets/plant-2.png";
+import plant3 from "../../assets/plant-3.png";
+import plant4 from "../../assets/plant-4.png";
+import plant5 from "../../assets/plant-5.png";
+import plant6 from "../../assets/plant-6.png";
+
 const plants = [
-  "/src/assets/plant-1.png",
-  "/src/assets/plant-2.png",
-  "/src/assets/plant-3.png",
-  "/src/assets/plant-4.png",
-  "/src/assets/plant-5.png",
-  "/src/assets/plant-6.png",
+  plant1,
+  plant2,
+  plant3,
+  plant4,
+  plant5,
+  plant6,
 ];
 
 const TopSelling = () => {

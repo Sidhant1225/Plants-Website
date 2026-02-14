@@ -1,18 +1,23 @@
 import "./CustomerReview.css";
 import { FaStar } from "react-icons/fa";
 
+// ✅ Import images properly
+import review1 from "../../assets/review-1.png";
+import review2 from "../../assets/review-2.png";
+import review3 from "../../assets/review-3.png";
+
 const reviews = [
   {
     name: "Maxn Raval",
-    image: "/src/assets/review-1.png",
+    image: review1,
   },
   {
     name: "venely k",
-    image: "/src/assets/review-2.png",
+    image: review2,
   },
   {
     name: "Lii thakur",
-    image: "/src/assets/review-3.png",
+    image: review3,
   },
 ];
 

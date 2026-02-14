@@ -1,6 +1,10 @@
 import "./TrendSection.css";
 import { FiShoppingBag } from "react-icons/fi";
 
+// ✅ Correct image imports
+import plant2 from "../../assets/plant-2.png";
+import plant1 from "../../assets/plant-1.png";
+
 const TrendSection = () => {
   return (
     <section className="trendy-section">
@@ -11,7 +15,7 @@ const TrendSection = () => {
 
         <div className="trend-card glass">
           <div className="trend-image">
-            <img src="/src/assets/plant-2.png" alt="plant" />
+            <img src={plant2} alt="plant" />
           </div>
 
           <div className="trend-content">
@@ -30,7 +34,7 @@ const TrendSection = () => {
 
         <div className="trend-card glass reverse">
           <div className="trend-image">
-            <img src="/src/assets/plant-1.png" alt="plant" />
+            <img src={plant1} alt="plant" />
           </div>
 
           <div className="trend-content">

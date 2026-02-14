@@ -1,12 +1,17 @@
 import "./Hero.css";
 import { FaPlay } from "react-icons/fa";
 
+// ✅ Correct image imports
+import plantBg from "../../assets/plant-2.png";
+import plantProduct from "../../assets/plant-7.png";
+import group9 from "../../assets/group 9.png";
+
 const Hero = () => {
   return (
     <section className="hero">
 
       {/* Background Large Plant */}
-      <img src="/src/assets/plant-2.png" alt="bg plant" className="hero-bg" />
+      <img src={plantBg} alt="bg plant" className="hero-bg" />
 
       <div className="container hero-wrapper">
 
@@ -33,7 +38,7 @@ const Hero = () => {
 
         {/* RIGHT PRODUCT CARD */}
         <div className="hero-product glass">
-          <img src="/src/assets/plant-7.png" alt="product" />
+          <img src={plantProduct} alt="product" />
 
           <div className="product-content">
             <span className="small-text">Trendy House Plant</span>
@@ -53,8 +58,7 @@ const Hero = () => {
       {/* REVIEW CARD */}
       <div className="hero-review glass">
         <div className="review-top">
-          <img src="/src/assets/group 9.png" alt="user" id="alana"/>
-          
+          <img src={group9} alt="user" id="alana"/>
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit,

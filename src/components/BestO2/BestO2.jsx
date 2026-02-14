@@ -1,6 +1,9 @@
 import "./BestO2.css";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
+// ✅ Correct image import
+import plantImage from "../../assets/plant-7.png";
+
 const BestO2 = () => {
   return (
     <section className="besto2-section">
@@ -12,7 +15,7 @@ const BestO2 = () => {
 
           {/* LEFT IMAGE */}
           <div className="besto2-image">
-            <img src="/src/assets/plant-7.png" alt="best plant" />
+            <img src={plantImage} alt="best plant" />
           </div>
 
           {/* RIGHT CONTENT */}
